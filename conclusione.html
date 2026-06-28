@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://stahe.github.io/it-jpa-juin-2007/conclusione.html">
       
       
-        <link rel="prev" href="jpa-in-unarchitettura-multistrato.html">
+        <link rel="prev" href="jpa-in-unarchitettura-a-piu-livelli.html">
       
       
-        <link rel="next" href="appendici.html">
+        <link rel="next" href="allegati.html">
       
       
         
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -330,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="-entita-jpa.html" class="md-nav__link">
+      <a href="le-entita-jpa.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2.  Entità JPA
+    2. Le entità JPA
   
 
     
@@ -357,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="jpa-in-unarchitettura-multistrato.html" class="md-nav__link">
+      <a href="jpa-in-unarchitettura-a-piu-livelli.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. JPA in un'architettura multistrato
+    3. JPA in un’architettura a più livelli
   
 
     
@@ -421,14 +423,14 @@
   
   
     <li class="md-nav__item">
-      <a href="appendici.html" class="md-nav__link">
+      <a href="allegati.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Appendici
+    5. Allegati
   
 
     
@@ -459,26 +461,26 @@
 
 
 <h1 id="4-conclusione">4. <span style="color: #365f91">Conclusione</span></h1>
-<p><span style="color: #000000">Questo tutorial, &quot;Java 5 Persistence in Practice&quot;, ha fornito esempi per la creazione di architetture multilivello in cui </span></p>
+<p><span style="color: #000000">Questo tutorial «Persistenza in Java 5: un approccio pratico» ha fornito esempi per la realizzazione di architetture multistrato in cui </span></p>
 <ul>
-  <li><span style="color: #000000">l&#x27;accesso ai dati è controllato da un livello JPA</span>
+  <li><span style="color: #000000">l’accesso ai dati è controllato da un livello JPA</span>
   </li>
-  <li><span style="color: #000000">i livelli [service] e [DAO] vengono eseguiti all&#x27;interno di un container Spring o EJB3</span>
+  <li><span style="color: #000000">gli strati [service] e [dao] vengono eseguiti all’interno di un contenitore Spring o EJB3</span>
   </li>
 </ul>
 
 <p><span style="color: #000000">Abbiamo concluso con un esempio di applicazione web che riunisce tutti i livelli:</span></p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005170000010A57714475.png" width="652" height="133" style="display:inline-block; margin:4px;width:17.238cm;height:3.519cm;" class="odt-zoomable" data-zoom-src="images/10000000000005170000010A57714475.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005170000010A57714475.png" width="652" height="133" style="display:inline-block; margin:4px;width:17.238cm;height:3.519cm;" class="odt-zoomable" data-zoom-src="images/10000000000005170000010A57714475.png" /></td></tr></table>
 
-<p><span style="color: #000000">Sebbene questo tutorial sia piuttosto lungo, non è affatto esaustivo:</span></p>
+<p><span style="color: #000000">Sebbene questo tutorial sia piuttosto lungo, non è tuttavia esaustivo:</span></p>
 <ul>
-  <li><span style="color: #000000">alcuni argomenti relativi a JPA non sono stati trattati (caching delle entità, traduzione del concetto di ereditarietà degli oggetti in uno schema DBMS, ecc.)</span>
+  <li><span style="color: #000000">alcuni aspetti JPA non sono stati trattati (cache delle entità, traduzione del concetto di oggetto di ereditarietà in uno schema di SGBD, ...)</span>
   </li>
-  <li><span style="color: #000000">Sono state riscontrate delle difficoltà, segnalate ma non risolte, in particolare riguardo all&#x27;uso del contenitore EJB3.</span>
+  <li><span style="color: #000000">sono state riscontrate alcune difficoltà, segnalate ma non risolte, in particolare nell’utilizzo del contenitore EJB3.</span>
   </li>
 </ul>
 
-<p><span style="color: #000000">I lettori dovrebbero quindi considerare questo documento solo come un punto di partenza per i loro primi passi con la persistenza in Java 5.</span></p>
+<p><span style="color: #000000">Il lettore dovrà quindi considerare questo documento solo come un punto di partenza per i propri primi passi con la persistenza in Java 5.</span></p>
 
 
 
